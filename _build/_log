@@ -3,8 +3,10 @@
 ocamldep.opt -modules test.ml > test.ml.depends
 # Target: test.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:test.cmo, file:test.ml, implem, ocaml, quiet }
 ocamlc.opt -c -o test.cmo test.ml
-# Target: test.cmx, tags: { compile, extension:cmx, extension:ml, file:test.cmx, file:test.ml, implem, native, ocaml, quiet }
-ocamlopt.opt -c -o test.cmx test.ml
-# Target: test.native, tags: { dont_link_with, extension:native, file:test.native, link, native, ocaml, program, quiet }
-ocamlopt.opt test.cmx -o test.native
-# Compilation successful.
++ ocamlc.opt -c -o test.cmo test.ml
+File "test.ml", line 1, characters 19-25:
+1 | let subset_test0 = subset [] [1;2;3]
+                       ^^^^^^
+Error: Unbound value subset
+Command exited with code 2.
+# Compilation unsuccessful.
