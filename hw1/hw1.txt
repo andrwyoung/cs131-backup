@@ -1,0 +1,1 @@
+I used recursion for many of these problem, because ocaml is best suited towards solving things recursively instead of loops. In fact, it was difficult to think about these problems because I couldn't use loops. I wanted to use loops, but had to convert my thought process towards using recursion. 

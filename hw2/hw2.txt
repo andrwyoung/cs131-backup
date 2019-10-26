@@ -1,0 +1,16 @@
+Differences between make_parser and make_matcher:
+I decided to do make_parser based on make_matcher, since make_match basically does the same thing that make_parser does, except I just had to add things that would make that explicit. 
+So the meat of the program is basically the same code, with make_parser being more complicated, and biggest difference is that they have different return values.
+
+Weaknesses:
+My code doesn't catch all of the edge cases. This is made explicit when running my code, and I get a warning: 
+
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a case that is not matched:
+[]
+val convert_parse :
+  ('a * ('b, 'c) symbol list) list ->
+  ('a * ('b, 'c) symbol list) list * ('a, 'c) parse_tree = <fun>
+val make_parser :
+  'a * ('a -> ('a, 'b) symbol list list) ->
+  'b list -> ('a, 'b) parse_tree option = <fun> 
