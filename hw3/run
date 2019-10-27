@@ -1,0 +1,13 @@
+#!/bin/bash
+
+tests=(Synchronized Unsynchronized AcmeSafe)
+iter=(1000 10000 100000 1000000)
+for i in "${tests[@]}" 
+do
+	echo "testing $i"
+	for j in "${iter[@]}"
+	do
+		echo -ne "$j iterations: \t"
+		java UnsafeMemory $i 8 $j 127 1 2 3 4 5 6 7 8 9 10 2> /dev/null
+	done
+done
