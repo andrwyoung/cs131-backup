@@ -1,0 +1,7 @@
+Goloman serving on ('127.0.0.1', 11805)
+Data recieved: IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1574988369.423285
+Connection created with: Hands
+Connection created with: Wilkes
+Data recieved: IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1574988640.632716
+Message received: WHATSAT kiwi.cs.ucla.edu 10 5
+Closing...

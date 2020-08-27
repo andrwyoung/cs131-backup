@@ -1,0 +1,8 @@
+Wilkes serving on ('127.0.0.1', 11809)
+Message received: AT Goloman +0.001233816146850586 kiwi.cs.ucla.edu +34.068930-118.445127 1574988369.423285
+Message from Goloman: AT Goloman +0.001233816146850586 kiwi.cs.ucla.edu +34.068930-118.445127 1574988369.423285
+Connection created with: Goloman
+Connection created with: Hands
+Message received: AT Goloman +0.0011401176452636719 kiwi.cs.ucla.edu +34.068930-118.445127 1574988640.632716
+Message from Goloman: AT Goloman +0.0011401176452636719 kiwi.cs.ucla.edu +34.068930-118.445127 1574988640.632716
+Closing...
